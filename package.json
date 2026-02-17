@@ -4,14 +4,16 @@
   "description": "Primeiro repositório, planejo fazer um clone-tabnews porém do meu jeito.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "vercel-build": "npm run prepare && next build" 
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^15.5.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
